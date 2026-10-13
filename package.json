@@ -1,0 +1,19 @@
+{
+  "name": "northstar-ejs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dynamic client portal using Express, EJS and shared layouts",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "ejs": "^3.1.10",
+    "express-ejs-layouts": "^2.5.1",
+    "bootstrap": "^5.3.8"
+  }
+}
